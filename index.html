@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon.png" type="image/png"/>
+    <title>Calendario con CSS Grid Layout</title>
+    
+</head>
+<body>
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <h1>ENERO</h1>
+            <p>2024</p>
+        </div>
+
+        <div class="calendar">
+            <span class="day-name">LUN</span>
+            <span class="day-name">MAR</span>
+            <span class="day-name">MIR</span>
+            <span class="day-name">JUE</span>
+            <span class="day-name">VIE</span>
+            <span class="day-name">SAB</span>
+            <span class="day-name">DOM</span>
+
+            <div class="day" style="color: red;">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day" style="color: red;">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+            <div class="day">31</div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            
+            <section class="task task-html">Aprender HTML</section>
+            <section class="task task-css">Aprender CSS</section>
+            <section class="task task-javascript">Aprender JavaScript
+                <div class="task-detail">
+                    <h2>Con kiko palomares</h2>
+                    <p>Tengo que aprender JavaScript</p>
+                </div>
+            </section>
+        </div>
+
+        <div class="calendar-header"> 
+            <h1>FEBRERO</h1>
+            <p>2024</p>
+        </div>
+
+        <div class="calendar">
+            <span class="day-name">LUN</span>
+            <span class="day-name">MAR</span>
+            <span class="day-name">MIR</span>
+            <span class="day-name">JUE</span>
+            <span class="day-name">VIE</span>
+            <span class="day-name">SAB</span>
+            <span class="day-name">DOM</span>
+
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            
+            
+        </div>
+
+        <div class="calendar-header">
+            <h1>MARZO</h1>
+            <p>2024</p>
+        </div>
+
+        <div class="calendar">
+            <span class="day-name">LUN</span>
+            <span class="day-name">MAR</span>
+            <span class="day-name">MIR</span>
+            <span class="day-name">JUE</span>
+            <span class="day-name">VIE</span>
+            <span class="day-name">SAB</span>
+            <span class="day-name">DOM</span>
+            
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day" style="color: red;">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day" style="color: red;">28</div>
+            <div class="day" style="color: red;">29</div>
+            <div class="day">30</div>
+            <div class="day">31</div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            
+            <section class="task task-html">Aprender HTML</section>
+            <section class="task task-html">Aprender CSS</section>
+            <section class="task task-html">Aprender JavaScript</section>
+        </div>
+
+        <div class="calendar-header">
+            <h1>ABRIL</h1>
+            <p>2024</p>
+        </div>
+
+        <div class="calendar">
+            <span class="day-name">LUN</span>
+            <span class="day-name">MAR</span>
+            <span class="day-name">MIR</span>
+            <span class="day-name">JUE</span>
+            <span class="day-name">VIE</span>
+            <span class="day-name">SAB</span>
+            <span class="day-name">DOM</span>
+
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+            
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            
+            <section class="task task-html">Aprender HTML</section>
+            <section class="task task-html">Aprender CSS</section>
+            <section class="task task-html">Aprender JavaScript</section>
+        </div>
+
+        <div class="calendar-header">
+            <h1>MAYO</h1>
+            <p>2024</p>
+        </div>
+
+        <div class="calendar">
+            <span class="day-name">LUN</span>
+            <span class="day-name">MAR</span>
+            <span class="day-name">MIR</span>
+            <span class="day-name">JUE</span>
+            <span class="day-name">VIE</span>
+            <span class="day-name">SAB</span>
+            <span class="day-name">DOM</span>
+
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            
+            <div class="day" style="color: red;">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day"  style="color: red;">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+            <div class="day">31</div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            
+            <section class="task task-html">Aprender HTML</section>
+            <section class="task task-html">Aprender CSS</section>
+            <section class="task task-html">Aprender JavaScript</section>
+        </div>
+
+        <div class="calendar-header">
+            <h1>JUNIO</h1>
+            <p>2024</p>
+        </div>
+
+        <div class="calendar">
+            <span class="day-name">LUN</span>
+            <span class="day-name">MAR</span>
+            <span class="day-name">MIR</span>
+            <span class="day-name">JUE</span>
+            <span class="day-name">VIE</span>
+            <span class="day-name">SAB</span>
+            <span class="day-name">DOM</span>
+
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day" style="color: red;">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day" style="color: red;">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+            
+            <section class="task task-html">Aprender HTML</section>
+            <section class="task task-html">Aprender CSS</section>
+            <section class="task task-html">Aprender JavaScript</section>
+        </div>
+
+        <div class="calendar-header">
+            <h1>JULIO</h1>
+            <p>2024</p>
+        </div>
+
+        <div class="calendar">
+            <span class="day-name">LUN</span>
+            <span class="day-name">MAR</span>
+            <span class="day-name">MIR</span>
+            <span class="day-name">JUE</span>
+            <span class="day-name">VIE</span>
+            <span class="day-name">SAB</span>
+            <span class="day-name">DOM</span>
+
+            <div class="day" style="color: red;">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day" style="color: red;">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+            <div class="day">31</div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            
+            <section class="task task-html">Aprender HTML</section>
+            <section class="task task-html">Aprender CSS</section>
+            <section class="task task-html">Aprender JavaScript</section>
+        </div>
+
+        <div class="calendar-header">
+            <h1>AGOSTO</h1>
+            <p>2024</p>
+        </div>
+
+        <div class="calendar">
+            <span class="day-name">LUN</span>
+            <span class="day-name">MAR</span>
+            <span class="day-name">MIR</span>
+            <span class="day-name">JUE</span>
+            <span class="day-name">VIE</span>
+            <span class="day-name">SAB</span>
+            <span class="day-name">DOM</span>
+
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day" style="color: red;">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day" style="color: red;">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+            <div class="day">31</div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            
+            <section class="task task-html">Aprender HTML</section>
+            <section class="task task-html">Aprender CSS</section>
+            <section class="task task-html">Aprender JavaScript</section>
+        </div>
+
+        <div class="calendar-header">
+            <h1>SEPTIEMBRE</h1>
+            <p>2024</p>
+        </div>
+
+        <div class="calendar">
+            <span class="day-name">LUN</span>
+            <span class="day-name">MAR</span>
+            <span class="day-name">MIR</span>
+            <span class="day-name">JUE</span>
+            <span class="day-name">VIE</span>
+            <span class="day-name">SAB</span>
+            <span class="day-name">DOM</span>
+
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+            
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            
+            <section class="task task-html">Aprender HTML</section>
+            <section class="task task-html">Aprender CSS</section>
+            <section class="task task-html">Aprender JavaScript</section>
+        </div>
+
+        <div class="calendar-header">
+            <h1>OCTUBRE</h1>
+            <p>2024</p>
+        </div>
+
+        <div class="calendar">
+            <span class="day-name">LUN</span>
+            <span class="day-name">MAR</span>
+            <span class="day-name">MIR</span>
+            <span class="day-name">JUE</span>
+            <span class="day-name">VIE</span>
+            <span class="day-name">SAB</span>
+            <span class="day-name">DOM</span>
+
+            <div class="day day-disabled"></div>
+            
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day" style="color: red;">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+            <div class="day">31</div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            
+            <section class="task task-html">Aprender HTML</section>
+            <section class="task task-html">Aprender CSS</section>
+            <section class="task task-html">Aprender JavaScript</section>
+        </div>
+
+        <div class="calendar-header">
+            <h1>NOVIEMBRE</h1>
+            <p>2024</p>
+        </div>
+
+        <div class="calendar">
+            <span class="day-name">LUN</span>
+            <span class="day-name">MAR</span>
+            <span class="day-name">MIR</span>
+            <span class="day-name">JUE</span>
+            <span class="day-name">VIE</span>
+            <span class="day-name">SAB</span>
+            <span class="day-name">DOM</span>
+
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day" style="color: red;">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day" style="color: red;">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+            
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+        
+            <section class="task task-html">Aprender HTML</section>
+            <section class="task task-html">Aprender CSS</section>
+            <section class="task task-html">Aprender JavaScript</section>
+        </div>
+
+        <div class="calendar-header">
+            <h1>DICIEMBRE</h1>
+            <p>2024</p>
+        </div>
+
+        <div class="calendar">
+            <span class="day-name">LUN</span>
+            <span class="day-name">MAR</span>
+            <span class="day-name">MIR</span>
+            <span class="day-name">JUE</span>
+            <span class="day-name">VIE</span>
+            <span class="day-name">SAB</span>
+            <span class="day-name">DOM</span>
+
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+            <div class="day day-disabled"></div>
+
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day" style="color: red;">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day" style="color: red;">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+            <div class="day">31</div>
+            
+            <div class="day day-disabled"></div>
+            
+            <section class="task task-html">Aprender HTML</section>
+            <section class="task task-html">Aprender CSS</section>
+            <section class="task task-html">Aprender JavaScript</section>
+        </div>
+    </div>
+    
+</body>
+</html>
