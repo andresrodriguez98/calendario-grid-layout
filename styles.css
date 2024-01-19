@@ -4,13 +4,15 @@
     --gray-light: #000000;
     --html-color: #fd490c;
     --html-color-light: #fbe9e3;
-    --css-coror: #2298f8;
+    --css-coror: #0e8cf3;
     --css-color-light: #dbefff;
     --javascript-color: #ffd93a;
     --javascript-color-light: #fbf6e1;
 }
 
-*{box-sizing: border-box;}
+*{
+    box-sizing: border-box;
+}
 
 body{
     background-color: var(--bg-color);
@@ -60,7 +62,7 @@ body{
     padding: 14px;
     border-bottom: 1px solid var(--gray-light);
     border-right: 1px solid var(--gray-light);
-    font-size: 20px;
+    font-size: 15px;
     color: var(--gray-light);
     font-weight: bold;
 }
@@ -121,7 +123,6 @@ body{
     grid-column: 7/7;
 }
 
-
 .day-name{
     font-size: 12px;
     text-transform: uppercase;
@@ -149,9 +150,9 @@ body{
     background-color: var(--html-color-light);
     color: var(--html-color);
     font-weight: bold;
-    grid-column: 1 / 3 span;
+    grid-column: 1 / 5 span;
     grid-row: 3;
-    align-self: center;
+    align-self: end;
     margin-top: -5px;
 }
 
@@ -160,9 +161,9 @@ body{
     background-color: var(--css-color-light);
     color: var(--css-color);
     font-weight: bold;
-    grid-column: 3 / 5 span;
-    grid-row: 3;
-    align-self: center;
+    grid-column: 1 / 5 span;
+    grid-row: 4;
+    align-self: end;
     margin-top: -5px;
 }
 
@@ -171,9 +172,9 @@ body{
     background-color: var(--javascript-color-light);
     color: var(--javascript-color);
     font-weight: bold;
-    grid-column: 1 / 7 span;
-    grid-row: 4;
-    align-self: center;
+    grid-column: 1 / 5 span;
+    grid-row: 5;
+    align-self: end;
     margin-top: -5px;
 }
 
