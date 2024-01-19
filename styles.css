@@ -23,7 +23,7 @@ body{
     width: 100%;
     max-width: 1200px;
     background-color: white;
-    box-shadow: 0 2px 20px var(--gray-light);
+    box-shadow: 0 2px 20px var(--gray-dark);
     border-radius: 10px;
     overflow: hidden;
     margin: auto;
@@ -158,7 +158,7 @@ body{
 .task-css{
     border-left-color: var(--css-color);
     background-color: var(--css-color-light);
-    color: var(--html-color);
+    color: var(--css-color);
     font-weight: bold;
     grid-column: 3 / 5 span;
     grid-row: 3;
@@ -169,7 +169,7 @@ body{
 .task-javascript{
     border-left-color: var(--javascript-color-color);
     background-color: var(--javascript-color-light);
-    color: var(--html-color);
+    color: var(--javascript-color);
     font-weight: bold;
     grid-column: 1 / 7 span;
     grid-row: 4;
